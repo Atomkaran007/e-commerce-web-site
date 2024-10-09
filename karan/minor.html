@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="minor.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script></head>
+</head>
+<body>
+    <header class="groove">
+        <h1 class="topp">Application</h1>
+    
+        <div class="search">
+            <form action="" method="search" class="search-bar">
+                <input type="text" placeholder="Search " name="q">
+                <button type="search">GO</button>
+            </form>
+        </div>
+    </header>
+        <ul class="mini">
+        <li class="name"><a href="Home" style="text-decoration: none;">Home</a></li>
+        <li><a href ="Mobie"style="text-decoration: none;">Mobile</a></li>
+        <li><a href="Laptop" style="text-decoration: none;">Laptop</a></li>
+        <li><a href="Headphone" style="text-decoration: none;">Headphone</a></li>
+        <li><a href="Toys" style="text-decoration: none;">Toys</a></li>
+        <li><a href="Shirt" style="text-decoration: none;">Shirt</a></li>
+        <li><a href="FootWare" style="text-decoration: none;">FootWare</a></li>
+        <li><a href="Helmets" style="text-decoration: none;">Helmets</a></li>
+        <li><a href="Refrigerators" style="text-decoration: none;">Refrigerators</a></li>
+        <li><a href="Washing Machines" style="text-decoration: none;">Washing Machines</a></li>
+        <li><a href="Watch" style="text-decoration: none;">Watch</a></li> 
+        <li class="major"><a href="Cart" style="text-decoration: none;">Cart</a></li>
+        </ul>
+        <div class="top">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="7000">
+                    <img src="image/image10.jfif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="7000">
+                    <img src="image/image11.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/image13.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        
+        <!-- Featured Products -->
+    <section class="products">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+          <div class="product-item">
+              <img src="images/images (1).jpg" alt="Product 1">
+              <p><b>HeadPhone</b></p>
+              <button class="things">View</button>
+          </div>
+          <div class="product-item">
+              <img src="image/image24.jpg" alt="Product 2">
+              <p><b>Laptop</b></p>
+              <button class="things">View</button>
+          </div>
+          <div class="product-item">
+              <img src="images/images (3).jpg" alt="Product 3">
+              <p><b>Toys</b></p>
+              <button class="things">View</button>
+          </div>
+          <div class="product-item">
+              <img src="images/images (4).jpg" alt="Product 4">
+              <p><b>Shirts</b></p>
+              <button class="things">View</button>
+          </div>
+          <div class="product-item">
+              <img src="image/image21.webp" alt="Product5">
+              <p><b>Footware</b></p>
+              <button class="things">View</button>
+          </div>
+          <div class="product-item">
+              <img src="image/image23.jpg" alt="Product 6">
+              <p><b>Helmets</b></p>
+              <button class="things">View</button>
+          </div>
+          <div class="product-item">
+              <img src="images/images (7).jpg" alt="Product 7">
+              <p><b>Refrigerator</b></p>
+              <button class="things">View</button>
+          </div>
+          <div class="product-item">
+              <img src="images/images (8).jpg" alt="Product 8">
+              <p><b>Washing Machine</b></p>
+              <button class="things">View</button>
+          </div>
+          <div class="product-item">
+              <img src="images/images (9).jpg" alt="Product 9">
+              <p><b>Watch</b></p>
+              <button class="things">View</button>
+          </div>
+          <!-- Add more product items here -->
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+      <p>&copy; 2024 Your E-Commerce Store. All rights reserved.</p>
+  </footer>
+  
+  <script>
+      // For future dynamic interactions (e.g., adding items to cart, search functionality)
+console.log("E-commerce page loaded");
+
+// Example: View interaction
+// document.querySelectorAll('button').forEach(button => {
+//   button.addEventListener('click', () => {
+//       alert('Item added to cart!');
+//   });
+// });
+</script>
+</body>
+</html>
